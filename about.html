@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- description keywords -->
+    <meta name="description" content="" />
+    <!-- title -->
+    <title>About || Comfy</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <!-- font awesome library-->
+    <script src="https://kit.fontawesome.com/fa73e05029.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="section-center">
+        <nav class="nav">
+            <button type="button" class="toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+                <li class="page-list-item"><a href="index.html">home</a></li>
+                <li class="page-list-item"><a href="products.html">products</a></li>
+                <li class="page-list-item"><a href="about.html">about</a></li>
+            </ul>
+            <img class="logo" src="images/logo-black.svg" alt=" logo">
+            <div class="cart-container">
+                <button type="button" class="shopping-cart shopping-cart-black">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <span class="cart-value">0</span>
+            </div>
+        </nav>
+    </div>
+    <!-- mobil nav -->
+    <div class="aside-container">
+        <aside class="mobil-aside">
+            <button type="button" class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <nav class="mobil-nav">
+                <ul class="mobil-list">
+                    <li><i class="fas fa-home fa-fw"></i><a href="index.html">home</a></li>
+                    <li><i class="fas fa-couch fa-fw"></i><a href="products.html">products</a></li>
+                    <li><i class="fas fa-book fa-fw"></i><a href="about.html">about</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+    <!-- cart section -->
+    <div class="cart-section-container">
+        <aside class="cart">
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+            <h3 class="cart-title">your bag</h3>
+            <div class="items-container">
+                <!-- single cart item -->
+                <!-- <article class="cart-item">
+                    <img src="./images/banner.jpeg" alt="" class="cart-img">
+                    <div class="cart-info">
+                        <h2>product name</h2>
+                        <p>$39.95</p>
+                        <button class="remove-item" data-id="">remove</button>
+                    </div>
+                    <div class="cart-math">
+                        <button class="increase"><i class="fas fa-chevron-up"></i></button>
+                        <span class="item-amount">1</span>
+                        <button class="decrease"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </article> -->
+                <!-- end of single cart item -->
+            </div>
+            <h3 class="total">total: $39.95</h3>
+            <button class="primary-btn checkout-btn">checkout</button>
+        </aside>
+    </div>
+    <!-- page title -->
+    <div class="page-title">
+        <div class="section-center">
+            <h2>home</h2>
+            <span>/</span>
+            <h2>about</h2>
+        </div>
+    </div>
+    <!-- about section -->
+    <section class="section about">
+        <div class="section-center">
+            <!-- section title -->
+            <div class="section-title section-title-about">
+                <span>/</span>
+                <h2>our history</h2>
+            </div>
+            <p class="history"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat accusantium sapiente
+                tempora sed dolore esse deserunt eaque excepturi, delectus error accusamus vel eligendi, omnis beatae.
+                Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque dolore, obcaecati incidunt sequi
+                blanditiis est exercitationem molestiae delectus saepe odio eligendi modi porro eaque in libero minus
+                unde sapiente consectetur architecto. Ullam rerum, nemo iste ex, eaque perspiciatis nisi, eum totam
+                velit saepe sed quos similique amet. Ex, voluptate accusamus nesciunt totam vitae esse iste. </p>
+        </div>
+    </section>
+    <!-- main js -->
+    <script src="./src/pages/about.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- description keywords -->
+    <meta name="description" content="" />
+    <!-- title -->
+    <title>Products || Comfy </title>
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <!-- font awesome library-->
+    <script src="https://kit.fontawesome.com/fa73e05029.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="section-center">
+        <nav class="nav">
+            <button type="button" class="toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+                <li class="page-list-item"><a href="index.html">home</a></li>
+                <li class="page-list-item"><a href="products.html">products</a></li>
+                <li class="page-list-item"><a href="about.html">about</a></li>
+            </ul>
+            <img class="logo" src="images/logo-black.svg" alt=" logo">
+            <div class="cart-container">
+                <button type="button" class="shopping-cart shopping-cart-black">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <span class="cart-value">0</span>
+            </div>
+        </nav>
+    </div>
+    <!-- mobil nav -->
+    <div class="aside-container">
+        <aside class="mobil-aside">
+            <button type="button" class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <nav class="mobil-nav">
+                <ul class="mobil-list">
+                    <li><i class="fas fa-home fa-fw"></i><a href="index.html">home</a></li>
+                    <li><i class="fas fa-couch fa-fw"></i><a href="products.html">products</a></li>
+                    <li><i class="fas fa-book fa-fw"></i><a href="about.html">about</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+    <!-- cart section -->
+    <div class="cart-section-container">
+        <aside class="cart">
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+            <h3 class="cart-title">your bag</h3>
+            <div class="items-container">
+                <!-- single cart item -->
+                <!-- <article class="cart-item">
+                    <img src="./images/banner.jpeg" alt="" class="cart-img">
+                    <div class="cart-info">
+                        <h2>product name</h2>
+                        <p>$39.95</p>
+                        <button class="remove-item" data-id="">remove</button>
+                    </div>
+                    <div class="cart-math">
+                        <button class="increase"><i class="fas fa-chevron-up"></i></button>
+                        <span class="item-amount">1</span>
+                        <button class="decrease"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </article> -->
+                <!-- end of single cart item -->
+            </div>
+            <h3 class="total">total: $39.95</h3>
+            <button class="primary-btn checkout-btn">checkout</button>
+        </aside>
+    </div>
+    <!-- page title -->
+    <div class="page-title">
+        <div class="section-center">
+            <h2>home</h2>
+            <span>/</span>
+            <h2>products</h2>
+        </div>
+    </div>
+    <!-- page loading -->
+    <div class="page-loading">
+        <h2>loading...</h2>
+    </div>
+    <!-- products section -->
+    <section class="section products-section">
+        <div class="section-center products-center">
+            <div class="search-part">
+                <div class="search-part-container">
+                    <input type="text" class="search-input" placeholder="search...">
+                    <div class="company-names">
+                        <h4>Company</h4>
+                        <ul class="company-list">
+                            <!-- <button data-name="all">all</button>
+                            <button data-name="ikea">ikea</button>
+                            <button data-name="marcos">marcos</button>
+                            <button data-name="caressa">caressa</button>
+                            <button data-name="liddy">liddy</button> -->
+                        </ul>
+                    </div>
+                    <div class="price">
+                        <h4>price</h4>
+                        <input type="range" class="price-filter" min="0" max="80" value="50">
+                        <p class="price-value">value: $50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <!-- filter-error -->
+                <!-- <h3 class="filter-error">sorry, no products matched your search...</h3> -->
+                <!-- single product -->
+                <!-- <article class="furniture">
+                    <div class="furniture-img-container">
+                        <img class="furniture-img" src="./images/main-bcg.jpeg" alt="">
+                        <div class="img-nav">
+                            <a href="product.html?id=1" class="nav-specific-product"><i class="fas fa-search"></i></a>
+                            <button type="button" class="shopping-cart-img" data-id="1">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="furniture-info">
+                        <h2>high-back bench</h2>
+                        <p>$9.99</p>
+                    </div>
+                </article> -->
+                <!-- end of single product -->
+            </div>
+        </div>
+    </section>
+</body>
+<!-- main js -->
+<script src="./src/pages/products.js" type="module"></script>
+
+</html>

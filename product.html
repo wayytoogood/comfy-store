@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- description keywords -->
+    <meta name="description" content="" />
+    <!-- title -->
+    <title>Product Name || Comfy </title>
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <!-- font awesome library-->
+    <script src="https://kit.fontawesome.com/fa73e05029.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="section-center">
+        <nav class="nav">
+            <button type="button" class="toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+                <li class="page-list-item"><a href="index.html">home</a></li>
+                <li class="page-list-item"><a href="products.html">products</a></li>
+                <li class="page-list-item"><a href="about.html">about</a></li>
+            </ul>
+            <img class="logo" src="images/logo-black.svg" alt=" logo">
+            <div class="cart-container">
+                <button type="button" class="shopping-cart shopping-cart-black">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <span class="cart-value">0</span>
+            </div>
+        </nav>
+    </div>
+    <!-- mobil nav -->
+    <div class="aside-container">
+        <aside class="mobil-aside">
+            <button type="button" class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <nav class="mobil-nav">
+                <ul class="mobil-list">
+                    <li><i class="fas fa-home fa-fw"></i><a href="index.html">home</a></li>
+                    <li><i class="fas fa-couch fa-fw"></i><a href="products.html">products</a></li>
+                    <li><i class="fas fa-book fa-fw"></i><a href="about.html">about</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+    <!-- cart section -->
+    <div class="cart-section-container">
+        <aside class="cart">
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+            <h3 class="cart-title">your bag</h3>
+            <div class="items-container">
+                <!-- single cart item -->
+                <!-- <article class="cart-item">
+                    <img src="./images/banner.jpeg" alt="" class="cart-img">
+                    <div class="cart-info">
+                        <h2>product name</h2>
+                        <p>$39.95</p>
+                        <button class="remove-item" data-id="">remove</button>
+                    </div>
+                    <div class="cart-math">
+                        <button class="increase"><i class="fas fa-chevron-up"></i></button>
+                        <span class="item-amount">1</span>
+                        <button class="decrease"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </article> -->
+                <!-- end of single cart item -->
+            </div>
+            <h3 class="total">total: $39.95</h3>
+            <button class="primary-btn checkout-btn">checkout</button>
+        </aside>
+    </div>
+    <!-- page title -->
+    <div class="page-title">
+        <div class="section-center">
+            <h2>home</h2>
+            <span>/</span>
+            <h2>product name</h2>
+        </div>
+    </div>
+    <!-- page loading -->
+    <div class="page-loading">
+        <h2>loading...</h2>
+    </div>
+    <!-- specific product -->
+    <section class="section specific-product">
+        <div class="section-center specific-center">
+            <!-- filter-error -->
+            <!-- <h3 class="filter-error">sorry, no products matched your search...</h3> -->
+            <!-- <article class="product-img-container">
+                <img class="product-img" src="./images/banner.jpeg" alt="">
+            </article>
+            <article class="product-info">
+                <h2 class="product-name">product name</h2>
+                <p class="product-brand">by brand-name</p>
+                <p class="specific-price">$79.99</p> -->
+            <!-- <div class="color-container">
+                    <span class="color"></span>
+                    <span class="color"></span>
+                </div> -->
+            <!-- <div class="product-text"> Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy
+                    8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund.
+                    Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch
+                    pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge </div>
+                <button type="button" class="btn primary-btn add-btn">add to cart</button>
+            </article> -->
+        </div>
+    </section>
+    <!-- main js -->
+    <script src="./src/pages/product.js" type="module"></script>
+</body>
+
+</html>
